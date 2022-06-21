@@ -125,15 +125,15 @@ global.author = global.wm
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/c73f47b440241b66cb9d3.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/c73f47b440241b66cb9d3.jpg'
-global.thumbbc = 'https://telegra.ph/file/d389f4acafac741f6592c.jpg' //For broadcast
-global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
+global.thumb = 'https://telegra.ph/file/1d3d59c6f43e5650de12d.jpg' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/2773ef668a3778bbd7a9f.jpg'
+global.thumbbc = 'https://telegra.ph/file/83050ca0641215e9ec51c.jpg' //For broadcast
+global.giflogo = 'https://telegra.ph/file/3159a0934e088bf0bf8b3.jpg'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
 /*============== TEXT ==============*/
-global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
+global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Prosess...```'
 global.eror = '```404 error```'
 
 /*=========== TYPE DOCUMENT ===========*/
