@@ -14,7 +14,7 @@ let handler = async (m) => {
 	let resp = await deepai.callStandardApi('waifu2x', {
 		image: fs.readFileSync(`./${img}`)
 	})
-	await conn.sendFile(m.chat, resp.output_url, 'hd.jpg', 'ɪɴɪ ᴋᴀᴋ ʜᴀꜱɪʟɴʏᴀヾ(≧▽≦*)ᴏ', m).then(() => fs.unlinkSync(`./${img}`))
+	await conn.sendFile(m.chat, resp.output_url, 'hd.jpg', '﹒‹𝟹﹒Nih Udh Jadi﹒﹒e', m).then(() => fs.unlinkSync(`./${img}`))
 }
 handler.help = ['hd <caption|reply media>']
 handler.tags = ['tools|anime']
