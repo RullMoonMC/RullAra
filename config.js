@@ -44,9 +44,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://www.instagram.com/kontol_elite'
-global.sgh = 'https://github.com/kannachann'
-global.sgc = 'https://chat.whatsapp.com/FF1Bd1U0FHu42rfz6uplbn'
+global.sig = '-'
+global.sgh = '-'
+global.sgc = 'https://chat.whatsapp.com/GCIFAN98UgCCIvZ95ZmRqa'
 global.sdc = '-'
 global.snh = 'https://nhentai.net/g/365296/'
 
@@ -61,8 +61,8 @@ global.psaweria = '-'
 /*============== NOMOR ==============*/
 global.nomorbot = '6281336990781'
 global.nomorown = '6285334930628'
-global.namebot = 'Kanna BOT'
-global.nameown = 'ⓊⒸⒽⒾⒽⒶ ⓃⒶⓇⓊⓉⓄ'
+global.namebot = 'Moon BOT'
+global.nameown = 'Owner'
 
 
 /*============== STAFF ==============*/
@@ -70,7 +70,7 @@ global.owner = [
   ['6285334930628'],
   ['6285334930628'],
   ['18126338970'],
-  ['6285334930628', 'ⓊⒸⒽⒾⒽⒶ ⓃⒶⓇⓊⓉⓄ', true]
+  ['6285334930628', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -173,8 +173,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '.'
-global.stickauth = `☂︎\n𝗞\na\nn\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickpack = 'MoonBot By Rull'
+global.stickauth = `MoonBot\nMade By 🌙`
 
 global.multiplier = 38 // The higher, The harder levelup
 
@@ -187,7 +187,7 @@ global.rpg = {
       limit: '🎫',
       health: '❤️',
       exp: '✨',
-      money: '💹',
+      money: '💵',
       bank: '🏦',
       potion: '🥤',
       diamond: '💎',
