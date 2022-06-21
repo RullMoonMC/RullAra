@@ -18,7 +18,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./media/siang.jpg') //Gambarnye
 					},
-					"title": "MikeBot", //Kasih namalu 
+					"title": "MoonBot", //Kasih namalu 
 					"description": "SELF BOT", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
@@ -39,7 +39,7 @@ const ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'MikeBot', //Kasih namalu
+                            message: 'MoonBot', //Kasih namalu
                             orderTitle: 'Bang',
                             thumbnail: fs.readFileSync('./media/siang.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
@@ -140,7 +140,7 @@ const fgclink = {
 		"groupInviteMessage": {
 			"groupJid": "0-1625305606@g.us",
 			"inviteCode": "mememteeeekkeke",
-			"groupName": "Mengter", 
+			"groupName": "MoonBot", 
             "caption": "Halo bang jagoo", 
             'jpegThumbnail': fs.readFileSync('./media/siang.jpg')
 		}
