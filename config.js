@@ -115,12 +115,12 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Ƙαnnα BOT あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Ƙαnnα - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Ƙαnnα 𝗕𝗢𝗧'
+global.wm = '                「 𝐌𝐨𝐨𝐧𝐁𝐨𝐭 あ⁩ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐌𝐨𝐨𝐧 - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝐌𝐎𝐎𝐍 𝗕𝗢𝗧'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ'
+global.titlebot = '᯽ ┊ 𝑴𝒐𝒐𝒏𝑩𝒐𝒕 𝑩𝒚 𝑹𝒖𝒍𝒍'
 global.author = global.wm
 
 
