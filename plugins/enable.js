@@ -3,9 +3,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
    {
 	title: `${dmenub} List Options`,
 	rows: [
-	    {title: "✨ | Welcome", rowId: `${usedPrefix + command} welcome`},
+	    {title: "🥳 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	    {title: "🚫 | Delete", rowId: `${usedPrefix + command} delete`},
-	    {title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
+	    {title: "⛰️ | Public", rowId: `${usedPrefix + command} public`},
 	{title: "🗣️ | Simi", rowId: `${usedPrefix + command} simi`},
 	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
 	{title: "🌟 | PremNsfwChat", rowId: `${usedPrefix + command} premnsfwchat`},
@@ -17,8 +17,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	{title: "📑 | Document", rowId: `${usedPrefix + command} document`},
 	{title: "👤 | WhiteListMyContact", rowId: `${usedPrefix + command} whitelistmycontact`},
 	{title: "❗ | Restrict", rowId: `${usedPrefix + command} restrick`},
-	{title: "😐 | Nyimak", rowId: `${usedPrefix + command} nyimak`},
-	{title: "☑️ | Autoread", rowId: `${usedPrefix + command} autoread`},
+	{title: "🔇 | Nyimak", rowId: `${usedPrefix + command} nyimak`},
+	{title: "✅ | Autoread", rowId: `${usedPrefix + command} autoread`},
 	{title: "💬 | PcOnly", rowId: `${usedPrefix + command} pconly`},
 	{title: "🏢 | GcOnly", rowId: `${usedPrefix + command} gconly`},
 	{title: "📷 | SwOnly", rowId: `${usedPrefix + command} swonly`},
@@ -29,8 +29,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 const listMessage = {
   text: ' ',
   footer: botdate,
-  title: `*${htki} OPTIONS ${htka}*`,
-  buttonText: "Click Here!",
+  title: `*❖ Pilihan*`,
+  buttonText: "𓄹✨⩩ Klik Disini!",
   sections
 }
 
@@ -225,10 +225,10 @@ const listMessage = {
       throw false
   }
   conn.sendButton(m.chat, `*${htki} OPTIONS ${htka}*
-🗂️ *Type:* ${type} 
-📊 *Status:* Succes ✅
-🎚️ *Options:* ${isEnable ? 'Enable' : 'Disable'}
-📣 *For:* ${isAll ? 'This Bot' : isUser ? '' : 'This Chats'}
+🗂️ *Tipe:* ${type} 
+📊 *Status:* Sukses ✅
+🎚️ *Optsi:* ${isEnable ? 'Enable' : 'Disable'}
+📣 *Untuk:* ${isAll ? 'Di Bot' : isUser ? '' : 'Di Chat Ini'}
 `,wm, null, [[`${isEnable ? '✖️ Disable' : '✔️ Enable'}`, `${isEnable ? `.off ${type}` : `.on ${type}`}`], ['🎀 Menu', '.menu']],m)
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
