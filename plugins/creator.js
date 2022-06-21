@@ -10,7 +10,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • @${nomorown.split`@`[0]} •
 ------- ${nameown} -------
 
-📮 *Note:*
+💌 *Note:*
 • Owner tidak menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
@@ -20,22 +20,19 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*ɴᴀᴍᴇ:* ⓊⒸⒽⒾⒽⒶ ⓃⒶⓇⓊⓉⓄ
-*ᴀɢᴇ:* 20ᵗʰ
-*sᴛᴀᴛᴜs:* single 
+*ɴᴀᴍᴇ:* Rull
+*ᴀɢᴇ:* ×××
+*sᴛᴀᴛᴜs:* ××× 
 
-*ʙɪʀᴛʜᴅᴀʏ:* 21 Des 2002
-*ᴀᴅᴅʀᴇss:* Indonesia, Jawa Barat, Bandung
+*ʙɪʀᴛʜᴅᴀʏ:* ×××
+*ᴀᴅᴅʀᴇss:* Isekai, South Server, Naru
 
 *- - sᴋɪʟʟs: - -* 
-> JavaScript [89.7%]
-> Python [13.4%]
-> CSS [5.1%]
-> Html [1.2%]
+> Sword 🗡️
+> Magic 🔮
+> Heal 🎀
 
-📷 *Instagram:* ${sig}
-🐈 *Github:* ${sgh}
-🥏 *Whatsapp* wa.me/${nomorown}
+🌙 *Whatsapp* wa.me/${nomorown}
 
 `
   let teks = ' '
@@ -43,16 +40,14 @@ const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	    {title: "✨ • Nomor", rowId: ".owner nomor"},
+	{title: "💌 • Biodata", rowId: ".owner bio"},
+	{title: "🌙 • Speed Bot", rowId: ".speed"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "👾 • Donasi", rowId: ".owner nomor"},
 	]
   },
 ]
@@ -60,8 +55,8 @@ const sections = [
 const listMessage = {
   text: teks,
   footer: null,
-  title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  title: `${htki} *Owner Moon Bot* ${htka}`,
+  buttonText: "Klik Disini !",
   sections
 }
 
