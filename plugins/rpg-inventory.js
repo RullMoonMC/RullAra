@@ -116,30 +116,30 @@ let handler = async (m, { conn }) => {
   const pets = Object.keys(inventory.pets).map(v => user[v] && `${global.rpg.emoticon(v)} ${v}: ${user[v] >= inventory.pets[v] ? 'Max Levels' : `Level(s) ${user[v]}`}`).filter(v => v).join('\n').trim()
   const cooldowns = Object.entries(inventory.cooldowns).map(([cd, { name, time }]) => cd in user && `*• ${name}*: ${new Date() - user[cd] >= time ? '✅' : '❌'}`).filter(v => v).join('\n').trim()
   const caption = `
-🧑🏻‍🏫  ɴᴀᴍᴇ: ${conn.getName(m.sender)}
+✅  ɴᴀᴍᴇ: ${conn.getName(m.sender)}
 ${Object.keys(inventory.others).map(v => user[v] && `➔ ${global.rpg.emoticon(v)} ${v}: ${user[v]}`).filter(v => v).join('\n')}${tools ? `
 ➔ 🎖️ role: ${user.role}
 
-*───── ᴛᴏᴏʟs ─────*
+e﹒✽﹒Tools﹒⊹
 ${tools}` : ''}${dura ? `
 
 ${dura}` : ''}${items ? `
 
 
-*───── ɪᴛᴇᴍs ─────*
+e﹒✽﹒Item﹒⊹
 ${items}
 ➔ ᴛᴏᴛᴀʟ ɪᴛᴇᴍs: ${Object.keys(inventory.items).map(v => user[v]).reduce((a, b) => a + b, 0)} Items` : ''}${crates ? `
 
 
-*───── ᴄʀᴀᴛᴇs ─────*
+e﹒✽﹒Crates﹒⊹
 ${crates}
 ➔ ᴛᴏᴛᴀʟ ᴄʀᴀᴛᴇs: ${Object.keys(inventory.crates).map(v => user[v]).reduce((a, b) => a + b, 0)} Crates` : ''}${pets || user.petFood ? `
 
 
-*───── ᴘᴇᴛs ─────*
+e﹒✽﹒Pets﹒⊹
 ${pets ? pets + '\n' : ''}${user.petFood ? '🍖 ᴘᴇᴛғᴏᴏᴅ: ' + user.petFood : ''}` : ''}${cooldowns ? `
 
-*───── ᴄᴏᴏʟᴅᴏᴡɴ ─────*
+e﹒✽﹒Cooldowns﹒⊹
 ${cooldowns}` : ''}
 *• dungeon:* ${user.lastdungeon == 0 ? '✅': '❌'}
 *• mining:* ${user.lastmining == 0 ? '✅': '❌'}
